@@ -9,7 +9,7 @@ async function getStates() { /* https://apisetu.gov.in/public/marketplace/api/co
             'Accept-Language': 'en_US',
             'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
         }
-    })
+    }) 
         .then(function (response) {
             if (response.data.states !== undefined) {
                 return {
